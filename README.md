@@ -1,39 +1,142 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# **📦 Botanic UI – Design System para Flutter**
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages).
+**Versão:** 1.0.0  
+**Licença:** MIT  
+**Autor:** Dan Lima
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages).
--->
+Botanic UI é um **design system elegante** inspirado em marcas de perfumaria e cosméticos, trazendo **cores sofisticadas, tipografia refinada e componentes reutilizáveis** para Flutter.
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+## **📥 Instalação**
 
-## Features
+Adicione ao seu `pubspec.yaml`:
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
-
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
+```yaml
+dependencies:
+  botanic_ui:
+    git:
+      url: https://github.com/seu-usuario/botanic_ui.git
 ```
 
-## Additional information
+Ou, se estiver instalando localmente:
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+```yaml
+dependencies:
+  botanic_ui:
+    path: ../botanic_ui
+```
+
+E então, rode:
+
+```sh
+flutter pub get
+```
+
+---
+
+## **🚀 Como Usar**
+
+Importe o package no seu projeto:
+
+```dart
+import 'package:botanic_ui/botanic_ui.dart';
+```
+
+### **🎨 Aplicando o Tema Global**
+
+```dart
+MaterialApp(
+  theme: botanicTheme,
+  home: HomePage(),
+);
+```
+
+---
+
+## **📌 Componentes Disponíveis**
+
+### **🎨 Cores (`BotanicColors`)**
+
+```dart
+Container(
+  color: BotanicColors.primary,
+  child: Text("Texto com cor primária"),
+);
+```
+
+### **🔤 Tipografia (`BotanicTypography`)**
+
+```dart
+Text("Título elegante", style: BotanicTypography.heading);
+```
+
+### **🖲️ Botões (`BotanicButton`)**
+
+```dart
+BotanicButton(
+  text: "Comprar",
+  onPressed: () {
+    print("Botão pressionado!");
+  },
+);
+```
+
+### **⌨️ Campo de Texto (`BotanicTextField`)**
+
+```dart
+BotanicTextField(
+  hint: "Digite seu nome",
+  controller: TextEditingController(),
+);
+```
+
+### **📦 Card de Produto (`BotanicProductCard`)**
+
+```dart
+BotanicProductCard(
+  imageUrl: "https://link-da-imagem.com/produto.jpg",
+  title: "Perfume Elegante",
+  price: "R\$ 199,90",
+  onTap: () {
+    print("Produto selecionado!");
+  },
+);
+```
+
+---
+
+## **🛠️ Estrutura do Package**
+
+```
+botanic_ui/
+│── lib/
+│   │── botanic_ui.dart
+│   │── src/
+│   │   │── botanic_colors.dart
+│   │   │── botanic_typography.dart
+│   │   │── botanic_buttons.dart
+│   │   │── botanic_text_field.dart
+│   │   │── botanic_product_card.dart
+│   │   │── botanic_theme.dart
+│── example/
+│── pubspec.yaml
+│── README.md
+```
+
+---
+
+## **📌 Contribuindo**
+
+Sinta-se à vontade para contribuir!
+
+1. **Fork** o repositório
+2. Crie um **branch** (`feature/minha-feature`)
+3. Faça um **commit** (`git commit -m "Adicionei um novo componente"`)
+4. Envie um **pull request**
+
+---
+
+## **📜 Licença**
+
+Este projeto é licenciado sob a **MIT License** – sinta-se livre para usá-lo e modificá-lo!
+
+Se precisar de mais alguma coisa, me avise!
