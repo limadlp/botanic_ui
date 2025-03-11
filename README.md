@@ -1,7 +1,6 @@
 # **📦 Botanic UI – Design System para Flutter**
 
 **Versão:** 1.0.0  
-**Licença:** MIT  
 **Autor:** Dan Lima
 
 Botanic UI é um **design system elegante** inspirado em marcas de perfumaria e cosméticos, trazendo **cores sofisticadas, tipografia refinada e componentes reutilizáveis** para Flutter.
@@ -123,20 +122,3 @@ botanic_ui/
 ```
 
 ---
-
-## **📌 Contribuindo**
-
-Sinta-se à vontade para contribuir!
-
-1. **Fork** o repositório
-2. Crie um **branch** (`feature/minha-feature`)
-3. Faça um **commit** (`git commit -m "Adicionei um novo componente"`)
-4. Envie um **pull request**
-
----
-
-## **📜 Licença**
-
-Este projeto é licenciado sob a **MIT License** – sinta-se livre para usá-lo e modificá-lo!
-
-Se precisar de mais alguma coisa, me avise!
