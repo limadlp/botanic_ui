@@ -110,12 +110,15 @@ botanic_ui/
 │── lib/
 │   │── botanic_ui.dart
 │   │── src/
-│   │   │── botanic_colors.dart
-│   │   │── botanic_typography.dart
-│   │   │── botanic_buttons.dart
-│   │   │── botanic_text_field.dart
-│   │   │── botanic_product_card.dart
-│   │   │── botanic_theme.dart
+│   │   │── components/
+│   │   │   │── botanic_buttons.dart
+│   │   │   │── botanic_text_field.dart
+│   │   │   │── botanic_product_card.dart
+│   │   │── theme/
+│   │   │   │── botanic_theme.dart
+│   │   │── tokens/
+│   │   │   │── botanic_colors.dart
+│   │   │   │── botanic_typography.dart
 │── example/
 │── pubspec.yaml
 │── README.md

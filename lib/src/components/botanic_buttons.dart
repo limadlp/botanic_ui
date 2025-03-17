@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'botanic_colors.dart';
-import 'botanic_typography.dart';
+import '../tokens/botanic_colors.dart';
+import '../tokens/botanic_typography.dart';
 
 class BotanicButton extends StatelessWidget {
   final String text;

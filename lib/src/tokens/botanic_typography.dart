@@ -1,4 +1,4 @@
-import 'package:botanic_ui/src/botanic_colors.dart';
+import 'package:botanic_ui/src/tokens/botanic_colors.dart';
 import 'package:flutter/material.dart';
 
 class BotanicTypography {

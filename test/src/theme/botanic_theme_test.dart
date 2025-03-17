@@ -1,4 +1,4 @@
-import 'package:botanic_ui/src/botanic_theme.dart';
+import 'package:botanic_ui/src/theme/botanic_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 

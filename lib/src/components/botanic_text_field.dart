@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'botanic_colors.dart';
+import '../tokens/botanic_colors.dart';
 
 class BotanicTextField extends StatelessWidget {
   final String hint;
